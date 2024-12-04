@@ -36,5 +36,5 @@ function updateRate() {
     var rateval = document.getElementById("rate").value;
     
     // Update the adjacent span to display the value as a percentage
-    document.getElementById("rate_val").innerText = rateval;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
